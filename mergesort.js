@@ -23,15 +23,14 @@ var split = function(wholeArray){
 
 var mergeSort = function(arrayToSort){
 	if (arrayToSort.length===1) {return arrayToSort;}
+
+   return merge(mergeSort(split(arrayToSort)[0]),mergeSort(split(arrayToSort)[1]));
 	// var splitArray = split(arrayToSort);
 	
 	// var firstMergeSort = mergeSort(splitArray[0]);
 	// var secondMergeSort = mergeSort(splitArray[1]);
 
 	// return (merge(firstMergeSort, secondMergeSort));
-
-
-   return merge(mergeSort(split(arrayToSort)[0]),mergeSort(split(arrayToSort)[1]));
 
 };
 
