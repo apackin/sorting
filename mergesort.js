@@ -25,6 +25,7 @@ var mergeSort = function(arrayToSort){
 	if (arrayToSort.length===1) {return arrayToSort;}
 
    return merge(mergeSort(split(arrayToSort)[0]),mergeSort(split(arrayToSort)[1]));
+
 	// var splitArray = split(arrayToSort);
 	
 	// var firstMergeSort = mergeSort(splitArray[0]);
@@ -34,6 +35,8 @@ var mergeSort = function(arrayToSort){
 
 };
 
+
+//Hello Cody!
 
 
 
