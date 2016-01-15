@@ -34,9 +34,3 @@ var mergeSort = function(arrayToSort){
 	// return (merge(firstMergeSort, secondMergeSort));
 
 };
-
-
-//Hello Cody!
-
-
-
